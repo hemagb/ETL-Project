@@ -15,4 +15,6 @@ This repository contains all relevant code and data for our ETL project.
     * in order to create a workable set of data for the production database, the data was cleaned and filtered for relevant columns (name, score, etc.)
     * it will be loaded into a relational database
     * the final table that will be used is restaurant_scores (included in Resources)
-
+* For Crime data or incident report
+    * Extracted the number of incidents from the csv and aggregated the value, all the unwanted data was dropped
+    * Loaded the data into sql with zipcode and number of crime incidents in that zipcode
